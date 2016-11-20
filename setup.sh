@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]
   then
-    echo "$0 relay-email admin-email email-server"
+    echo "$0 relay-email admin-email email-server email-password"
     exit 1
 fi
 
